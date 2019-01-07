@@ -1,0 +1,40 @@
+body {
+  color: white;
+  font-family:optima;
+  background-color: #223a50;
+}
+
+div{
+	margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+#game-container {
+  /*max-width: 2400px;
+    width: 60%; 
+    min-width: 400px;
+    height: 75% width; */ /*need JS*/
+    width: 600px;
+    height: 450px;
+    background-color: rgba(255,255,255,.1);
+}
+#speech-container{
+
+}
+
+#background-image{
+  position
+}
+.resource-image{
+  position
+}
+.sprite-image{
+  position
+}
