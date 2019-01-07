@@ -1,3 +1,19 @@
+/* when merging: copy line3-15, and add comments accrodingly */
+
+/* scrollbar customization: works only w/ webkit */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.75); 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/* @media: display warning messages. TODO: change some size def. according to media size */
 @media(min-width: 4800px) and (min-height: 3200px){
   #gigantic-screen-notice{
     visibility:visible;
@@ -13,6 +29,7 @@
     visibility: visible;
   }
 }
+
 body {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -21,19 +38,17 @@ body {
   font-family:optima;
   background-color: #223a50;
 }
-
 div{
 	margin: auto;
 }
-
 h1 {
   text-align: center;
 }
-
 p {
   font-size: 20px;
 }
 
+/* game related id's and classes */
 #game-container {
   position: relative;
   max-width: 3200px;
@@ -43,8 +58,8 @@ p {
   height: 45vw;
   min-height: 360px;
   background-color: rgba(255,255,255,.1);
-  background-image: url("https://static.photocrowd.com/photos/891327-8fe923212a1832798236e330435751a284873878-h540.jpeg");
-  /*random test image*/
+  background-image: url("https://www.w3schools.com/w3css/img_lights.jpg"); /*random test image*/
+  background-size:cover;
 }
 #speech-container{
   position: absolute;
@@ -61,14 +76,4 @@ p {
   margin: 0px;
   max-width: 2880px;
   overflow-y: auto;
-}
-
-#background-image{
-  position
-}
-.resource-image{
-  position
-}
-.sprite-image{
-  position
 }
