@@ -45,6 +45,7 @@ p {
   background-color: rgba(255,255,255,.1);
   background-image: url("https://static.photocrowd.com/photos/891327-8fe923212a1832798236e330435751a284873878-h540.jpeg");
   /*random test image*/
+  background-size: contain;
 }
 #speech-container{
   position: absolute;
