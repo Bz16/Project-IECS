@@ -13,7 +13,13 @@
 }
 /* @media: display warning messages. TODO: change some size def. according to media size */
 @media(min-width: 4800px) and (min-height: 3200px){
-  #gigantic-screen-notice{
+
+#gigantic-screen-warn, #bad-graph-warn{
+  visibility: hidden;
+}
+media(min-width: 4800px) and (min-height: 3200px){
+
+  #gigantic-screen-warn{
     visibility:visible;
   }
 }
