@@ -1,8 +1,25 @@
+/* scrollbar customization: works only w/ webkit */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.75); 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/* @media: display warning messages. TODO: change some size def. according to media size */
+@media(min-width: 4800px) and (min-height: 3200px){
+
 #gigantic-screen-warn, #bad-graph-warn{
   visibility: hidden;
 }
 media(min-width: 4800px) and (min-height: 3200px){
-  #gigantic-screen-notice{
+
+  #gigantic-screen-warn{
     visibility:visible;
   }
 }
@@ -16,6 +33,7 @@ media(min-width: 4800px) and (min-height: 3200px){
     visibility: visible;
   }
 }
+
 body {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -26,7 +44,7 @@ body {
 }
 
 div{
-	margin: auto;
+  margin: auto;
 }
 
 h1 {
@@ -46,8 +64,10 @@ p {
   height: 45vw;
   min-height: 360px;
   background-color: rgba(255,255,255,.1);
-  background-image: url("https://static.photocrowd.com/photos/891327-8fe923212a1832798236e330435751a284873878-h540.jpeg");
-  /*random test image*/
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/aa/Polarlicht_2.jpg");
+	/*large test image*/
+  /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Polarlicht_2.jpg/640px-Polarlicht_2.jpg");
+	/*small test image*/
   background-size: cover;
 }
 #speech-container{
