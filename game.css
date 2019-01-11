@@ -1,24 +1,23 @@
-/* scrollbar customization: works only w/ webkit */
+/* scrollbar customization: works only with webkit */
 ::-webkit-scrollbar {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: rgba(255,255,255,0.75); 
+  background: rgba(255,255,255,0.75);
 }
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
-/* @media: display warning messages. TODO: change some size def. according to media size */
+/* @media: display warning messages. todo: change some size def. according to media size */
 @media(min-width: 4800px) and (min-height: 3200px){
 
 #gigantic-screen-warn, #bad-graph-warn{
   visibility: hidden;
 }
-media(min-width: 4800px) and (min-height: 3200px){
-
+@media(min-width: 4800px) and (min-height: 3200px){
   #gigantic-screen-warn{
     visibility:visible;
   }
@@ -66,7 +65,7 @@ p {
   background-color: rgba(255,255,255,.1);
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/aa/Polarlicht_2.jpg");
 	/*large test image*/
-  /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Polarlicht_2.jpg/640px-Polarlicht_2.jpg");
+  /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Polarlicht_2.jpg/640px-Polarlicht_2.jpg");*/
 	/*small test image*/
   background-size: cover;
 }
@@ -90,11 +89,10 @@ p {
 
 /*#background-image{
   position
-}*/
-
+}
 .resource-image{
   position
 }
 .sprite-image{
   position
-}
+}*/
